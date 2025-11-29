@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reserve Page</title>
+    <link rel="stylesheet" href="./src/reserve.css">
+  </head>
+  <body>
+    <header>
+      <img src="" id="logo">
+      <h1 id="text-head">Study Plan Declaration and Course Reservation</h1>
+      <div>
+        <a class="ecors-fullname">Welcome,...(ดึงจาก data)</a>
+      </div>
+      <a class="ecors-button-signout">Exit</a>
+    </header>
+    <h3>There are no upcoming active reservation periods.</h3>
+    <p class="ecors-declared-plan" >Declaration Status : <span ></span> </p>
+    <section>
+      <h2>Declare Your Major</h2>
+      <label for="major">Select Major:</label>
+      <select id="major" class="ecors-dropdown-plan">
+        <option  value=''>-- Select Major --</option>
+    </select>
+    <button class="ecors-button-declare">Declare</button>
+
+    <button class="ecors-button-change" style="display: none;">Change</button> 
+    <button class="ecors-button-cancel" style="display: inline-block;">Cancel Declaration</button> 
+  </section>
+  
+  <dialog class="ecors-dialog">
+    <div class="ecors-dialog-content">
+        <p class="ecors-dialog-message">This section is not avalible yet.</p>
+        
+        <div class="ecors-dialog-actions">
+            <button class="ecors-button-dialog">Exit</button>
+            <button class="ecors-button-confirm-cancel" style="display: none;">Cancel Declaration</button>
+            <button class="ecors-button-keep" style="display: none;">Keep Declaration</button>
+        </div>
+    </div>
+  </dialog>
+
+  <footer>
+      <p id="text">© 2025 School of Information Technology, KMUTT</p>
+    </footer>
+
+  
+    <script src="./src/reserve.js" type="module"></script>
+  </body>
+</html>
