@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+/* header */
+header {
+    background-color: #004080;
+    display: flex;
+    height: 150px;
+    align-items: center;
+    padding: 5px 5%;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+header #logo {
+    height: 50%;
+    margin-right: 40px;
+}
+
+#text-head {
+    color: white;
+    /* padding-right: 10%; */
+
+}
+
+#control-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: 10px;
+}
+/*------------------------------------------------*/
+#managebtn {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 3%;
+}
+
+.ecors-button-manage {
+    margin: 10px;
+    background-color:rgb(45, 120, 224);
+    color: white;
+    border-color: white;
+    border-radius: 7px;
+    border-style: none;
+    padding: 7px 7px;
+    cursor: pointer;
+    box-shadow: #00000047 0px 2px 5px;
+    font-weight: bold;
+}
+/*------------------------------------------------*/
+
+/*body*/
+
+section {
+    margin: 2rem auto;
+    width: 100%;
+    background: #fff;
+    border-radius: 8px;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 6px #0000001a;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+/* #plan-table {
+
+    border-radius: 8px;
+    box-shadow: 0 2px 6px #0000001a;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+
+} */
+
+table {
+    border-collapse: collapse;
+    width: 95%;
+
+}
+  
+
+th {
+    border: 1px solid #999;
+    padding: 8px;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+td {
+    text-align: left;
+    border: 1px solid;
+    padding: 8px;
+}
+
+/*------------------------------------------------*/
+
+footer {
+    height: 60px;
+    background-color: #004080;
+    color: #f2f2f2;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+
+
+}
+
+/*------------------------------------------------*/
+
+/* popup อยู่กลางจอ */
+dialog {
+  display: none;
+  position: absolute;
+  left: 33%;
+  top: 33%;
+  width: 500px; height: 140px;
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 999;
+  justify-content: center;
+  align-items: center;
+}
+
+/* กล่องข้อความ */
+#error-dialog {
+  background: #fff;
+  color: #000;
+  border: 2px solid #000;
+  border-radius: 2px;
+  padding: 25px 40px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  font-family: Arial, sans-serif;
+  text-align: center;
+  min-width: 300px;
+}
+
+

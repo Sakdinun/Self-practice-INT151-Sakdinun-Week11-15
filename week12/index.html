@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>B.Sc.IT - Study Plans</title> 
+  <link rel="stylesheet" href="./src/style.css">
+</head>
+<body>
+  <header>
+    <img src="" id="logo">
+    <h1 id="text-head">Study Plan Declaration and Course Reservation</h1>
+  </header>
+  <div id="managebtn">
+    <button class="ecors-button-manage">Manage study plan declaration and course reservation</button>
+  </div>
+
+  
+  <section>
+    <h2>B.Sc.IT - Study Plans</h2>
+
+    <div id="plan">
+      <div id="plan-table">
+        <table id="study_plan_table">
+          <thead id="plans-thead">          
+            <tr>
+                <th class="ecors-id">ID</th>
+                <th class="ecors-studyCode">Study Code</th>
+                <th class="ecors-nameEng">English Name</th>
+                <th class="ecors-nameTh">Thai Name</th>
+            </tr>
+          </thead>
+          <tbody id="plans-tbody">          
+          </tbody>
+        </table> 
+      </div>
+    </div>
+    
+  </section>
+  <dialog id="error-dialog" class="ecors-dialog " closedby="none">
+     <p class="ecors-dialog-message">There is a problem. Please try again later.</p>
+  </dialog>
+  <footer>
+    <p id="text">© 2025 School of Information Technology, KMUTT</p>
+  </footer>
+  <script src="./src/home.js" type="module"></script>
+</body>
+</html>
